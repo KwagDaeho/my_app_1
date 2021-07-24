@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import Potato from './Potato';
 import reportWebVitals from './reportWebVitals';
+import MyClass from './study_class.js';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Potato />
-    
+    <MyClass />
   </React.StrictMode>,
   document.getElementById('root')
 );
