@@ -2,7 +2,7 @@ import './App.css';
 import Part1 from './Part1';
 import Part2 from './Part2';
 import PropTypes from "prop-types";
-
+import Fetch from './fetch';
 
 const Food = [
   {
@@ -59,6 +59,7 @@ function App() {
       
       <Part1 />
       <Part2 />
+      <Fetch />
     </div>
   );
 };
